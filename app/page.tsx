@@ -162,7 +162,7 @@ export default function Home() {
             className="mt-8 flex flex-wrap items-center justify-center gap-3"
           >
             <Button asChild variant="default" className="gap-2 rounded-full">
-              <Link href="mailto:contact@example.com">
+              <Link href="mailto:saketj.dev@gmail.com">
                 <Mail className="h-4 w-4" />
                 Contact Me
               </Link>
@@ -187,7 +187,7 @@ export default function Home() {
               size="icon"
               className="rounded-full border-border/40 bg-background/50 backdrop-blur-sm"
             >
-              <Link href="https://github.com" target="_blank" aria-label="GitHub">
+              <Link href="https://github.com/sjdev06/New-folder" target="_blank" aria-label="GitHub">
                 <Github className="h-5 w-5" />
               </Link>
             </Button>
@@ -197,7 +197,7 @@ export default function Home() {
               size="icon"
               className="rounded-full border-border/40 bg-background/50 backdrop-blur-sm"
             >
-              <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+              <Link href="https://www.linkedin.com/in/saketjha06/" target="_blank" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </Link>
             </Button>
