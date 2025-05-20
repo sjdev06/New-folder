@@ -8,8 +8,9 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Saket Jha | Creative Developer & UI/UX Designer",
-  description: "Personal portfolio and resume of Saket Jha, showcasing skills, projects, and professional experience",
-    generator: 'v0.dev'
+  description:
+    "Personal portfolio and resume of Saket Jha, showcasing skills, projects, and professional experience",
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -18,12 +19,18 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head />
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false} // Optional: use system theme or not
+        >
           {children}
         </ThemeProvider>
       </body>
     </html>
   )
 }
+
