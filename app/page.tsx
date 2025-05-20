@@ -127,7 +127,7 @@ export default function Home() {
             className="relative mb-8 h-40 w-40 overflow-hidden rounded-full border-4 border-background bg-gradient-to-br from-primary/20 to-primary/10 p-1 shadow-xl md:h-48 md:w-48"
           >
             <Image
-              src="/placeholder.svg?height=400&width=400"
+              src="/Profile Picture.jpg"
               alt="Profile Picture"
               fill
               className="rounded-full object-cover"
@@ -207,7 +207,7 @@ export default function Home() {
               size="icon"
               className="rounded-full border-border/40 bg-background/50 backdrop-blur-sm"
             >
-              <Link href="https://codechef.com" target="_blank" aria-label="CodeChef">
+              <Link href="https://www.codechef.com/users/fresh_ray_70" target="_blank" aria-label="CodeChef">
                 <Code className="h-5 w-5" />
               </Link>
             </Button>
@@ -241,7 +241,7 @@ export default function Home() {
 
             <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
               <p>
-                I'm a passionate Creative Developer and UI/UX Designer with over 5 years of experience crafting digital
+                I'm a passionate Creative Developer and UI/UX Designer with over 1 year of experience crafting digital
                 experiences that blend aesthetics with functionality. My approach combines technical expertise with
                 creative problem-solving to build products that are not only visually stunning but also intuitive and
                 accessible.
