@@ -637,7 +637,7 @@ export default function Home() {
                     size="sm"
                     className="mt-4 w-fit rounded-full bg-white text-black hover:bg-white/90"
                   >
-                    <Link href="https://github.com" target="_blank">
+                    <Link href="https://brain-quest-jet.vercel.app/home" target="_blank">
                       View Project
                     </Link>
                   </Button>
@@ -682,7 +682,7 @@ export default function Home() {
                     size="sm"
                     className="mt-4 w-fit rounded-full bg-white text-black hover:bg-white/90"
                   >
-                    <Link href="https://github.com" target="_blank">
+                    <Link href="https://sol-vit-2025.vercel.app/" target="_blank">
                       View Project
                     </Link>
                   </Button>
