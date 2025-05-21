@@ -11,9 +11,7 @@ export const metadata: Metadata = {
   description:
     "Personal portfolio and resume of Saket Jha, showcasing skills, projects, and professional experience",
   generator: "v0.dev",
-  icons: {
-    icon: "/Profile Picture.ico", // or use .png or any other icon file you have
-  },
+  
 }
  
 export default function RootLayout({
@@ -27,7 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem={false} // Optional: use system theme or not
         >
           {children}
