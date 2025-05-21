@@ -11,8 +11,13 @@ export const metadata: Metadata = {
   description:
     "Personal portfolio and resume of Saket Jha, showcasing skills, projects, and professional experience",
   generator: "v0.dev",
+  icons: {
+    icon: "/favicon.ico", // or "/favicon.png" if using PNG
+  },
+};
+
   
-}
+
  
 export default function RootLayout({
   children,
