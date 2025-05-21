@@ -767,9 +767,9 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Button asChild variant="default" className="gap-2 rounded-full">
-                <Link href="mailto:contact@example.com">
+                <Link href="mailto:saketj.dev@gmail.com">
                   <Mail className="h-4 w-4" />
-                  contact@example.com
+                  saketj.dev@gmail.com
                 </Link>
               </Button>
               <Button asChild variant="outline" className="gap-2 rounded-full">
