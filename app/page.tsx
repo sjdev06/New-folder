@@ -541,19 +541,20 @@ export default function Home() {
                   <GraduationCap className="h-3 w-3 text-primary" />
                 </div>
                 <div className="flex flex-col space-y-2 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
-                  <h3 className="text-xl font-semibold">Master of Design</h3>
+                  <h3 className="text-xl font-semibold">VIT Bhopal University</h3>
                   <div className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
-                    2016 - 2018
+                    2024-2028
                   </div>
                 </div>
                 <div className="mt-1 flex items-center text-muted-foreground">
-                  <Link href="https://stanford.edu" target="_blank" className="flex items-center hover:text-foreground">
-                    Stanford University
+                  <Link href="https://vitbhopal.ac.in/" target="_blank" className="flex items-center hover:text-foreground">
+                    VIT Bhopal University
                     <ExternalLink className="ml-1 h-3 w-3" />
                   </Link>
                 </div>
                 <p className="mt-2 text-muted-foreground">
-                  Specialized in Interactive Design with focus on human-computer interaction and user experience.
+                  B.Tech CSE with specialization in Cloud Computing and Automation (Ongoing),                                 Focused on web technologies and creative coding.
+                  
                 </p>
               </motion.div>
 
@@ -562,19 +563,19 @@ export default function Home() {
                   <GraduationCap className="h-3 w-3 text-primary" />
                 </div>
                 <div className="flex flex-col space-y-2 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
-                  <h3 className="text-xl font-semibold">Bachelor of Computer Science</h3>
+                  <h3 className="text-xl font-semibold">MVN Aravali Hills</h3>
                   <div className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
-                    2012 - 2016
+                    2011-2024
                   </div>
                 </div>
                 <div className="mt-1 flex items-center text-muted-foreground">
-                  <Link href="https://mit.edu" target="_blank" className="flex items-center hover:text-foreground">
-                    MIT
+                  <Link href="https://www.mvneducation.com/mvn-aravali/" target="_blank" className="flex items-center hover:text-foreground">
+                    MVN SCHOOLS
                     <ExternalLink className="ml-1 h-3 w-3" />
                   </Link>
                 </div>
                 <p className="mt-2 text-muted-foreground">
-                  Graduated with honors. Focused on web technologies and creative coding.
+                  First divion in 10th and 12h grade.                                                            Stream-Science(maths)
                 </p>
               </motion.div>
             </motion.div>
