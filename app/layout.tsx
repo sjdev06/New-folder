@@ -11,8 +11,11 @@ export const metadata: Metadata = {
   description:
     "Personal portfolio and resume of Saket Jha, showcasing skills, projects, and professional experience",
   generator: "v0.dev",
+  icons: {
+    icon: "/Profile Picture.ico", // or use .png or any other icon file you have
+  },
 }
-
+ 
 export default function RootLayout({
   children,
 }: Readonly<{
