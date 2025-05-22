@@ -728,7 +728,7 @@ export default function Home() {
                 { name: "Photography", icon: "📷", description: "Street and landscape photography" },
                 { name: "Travel", icon: "✈️", description: "Exploring new cultures and places" },
                 { name: "Music Production", icon: "🎵", description: "Creating electronic music" },
-                { name: "Rock Climbing", icon: "🧗", description: "Indoor and outdoor climbing" },
+                { name: "Sports Enthusiast", icon: "🏏", description: "Playing all kind of sports anytime,anywhere." },
                 { name: "Reading", icon: "📚", description: "Science fiction and design books" },
                 { name: "Open Source", icon: "💻", description: "Contributing to community projects" },
               ].map((hobby, index) => (
