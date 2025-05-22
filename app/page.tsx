@@ -608,7 +608,7 @@ export default function Home() {
               >
                 <div className="aspect-video overflow-hidden rounded-xl bg-muted">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/download.jpg"
                     width={600}
                     height={400}
                     alt="Project thumbnail"
@@ -616,9 +616,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <h3 className="text-xl font-bold text-white">Immersive Portfolio</h3>
+                  <h3 className="text-xl font-bold text-white">AI-Powered Gamezone</h3>
                   <p className="mt-2 text-white/80">
-                    An interactive 3D portfolio experience built with Three.js and React
+                    A data visualization gameboard with AI-driven insights and analytics
                   </p>
                   <div className="mt-4 flex space-x-2">
                     <Badge variant="outline" className="border-white/20 text-white">
@@ -653,7 +653,7 @@ export default function Home() {
               >
                 <div className="aspect-video overflow-hidden rounded-xl bg-muted">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/donload2.jpg"
                     width={600}
                     height={400}
                     alt="Project thumbnail"
@@ -661,9 +661,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <h3 className="text-xl font-bold text-white">AI-Powered Dashboard</h3>
+                  <h3 className="text-xl font-bold text-white">Exclusive Lost&Found webpage</h3>
                   <p className="mt-2 text-white/80">
-                    A data visualization dashboard with AI-driven insights and analytics
+                    A data visualization webpage with AI-driven insights and analytics
                   </p>
                   <div className="mt-4 flex space-x-2">
                     <Badge variant="outline" className="border-white/20 text-white">
@@ -698,7 +698,7 @@ export default function Home() {
               className="mt-8 text-center"
             >
               <Button asChild variant="outline" className="rounded-full">
-                <Link href="https://github.com" target="_blank">
+                <Link href="https://github.com/sjdev06" target="_blank">
                   View More Projects
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>
