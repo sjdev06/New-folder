@@ -261,85 +261,87 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section ref={sectionRefs.experience} className="py-20">
-        <div className="container px-4">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeIn}
-            className="mx-auto max-w-3xl"
-          >
-            <div className="mb-12 flex items-center">
-              <h2 className="text-3xl font-bold">Experience</h2>
-              <div className="ml-4 h-px flex-1 bg-gradient-to-r from-border to-transparent" />
+      {/*
+<section ref={sectionRefs.experience} className="py-20">
+  <div className="container px-4">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={fadeIn}
+      className="mx-auto max-w-3xl"
+    >
+      <div className="mb-12 flex items-center">
+        <h2 className="text-3xl font-bold">Experience</h2>
+        <div className="ml-4 h-px flex-1 bg-gradient-to-r from-border to-transparent" />
+      </div>
+
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="relative space-y-12 pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-gradient-to-b before:from-primary/80 before:via-primary/50 before:to-primary/5"
+      >
+        <motion.div variants={fadeIn} className="relative">
+          <div className="absolute -left-10 flex h-6 w-6 items-center justify-center rounded-full border border-primary/50 bg-background">
+            <Briefcase className="h-3 w-3 text-primary" />
+          </div>
+          <div className="flex flex-col space-y-2 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
+            <h3 className="text-xl font-semibold">Senior Creative Developer</h3>
+            <div className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+              2021 - Present
             </div>
+          </div>
+          <p className="mt-1 text-muted-foreground">DesignStudio X</p>
+          <ul className="mt-4 list-inside space-y-2 text-muted-foreground">
+            <li className="flex items-start">
+              <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
+              Led the redesign of a flagship product, increasing user engagement by 40%
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
+              Established design systems that improved development efficiency by 30%
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
+              Mentored junior designers and developers, fostering a collaborative culture
+            </li>
+          </ul>
+        </motion.div>
 
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              className="relative space-y-12 pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-gradient-to-b before:from-primary/80 before:via-primary/50 before:to-primary/5"
-            >
-              <motion.div variants={fadeIn} className="relative">
-                <div className="absolute -left-10 flex h-6 w-6 items-center justify-center rounded-full border border-primary/50 bg-background">
-                  <Briefcase className="h-3 w-3 text-primary" />
-                </div>
-                <div className="flex flex-col space-y-2 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
-                  <h3 className="text-xl font-semibold">Senior Creative Developer</h3>
-                  <div className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
-                    2021 - Present
-                  </div>
-                </div>
-                <p className="mt-1 text-muted-foreground">DesignStudio X</p>
-                <ul className="mt-4 list-inside space-y-2 text-muted-foreground">
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
-                    Led the redesign of a flagship product, increasing user engagement by 40%
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
-                    Established design systems that improved development efficiency by 30%
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
-                    Mentored junior designers and developers, fostering a collaborative culture
-                  </li>
-                </ul>
-              </motion.div>
+        <motion.div variants={fadeIn} className="relative">
+          <div className="absolute -left-10 flex h-6 w-6 items-center justify-center rounded-full border border-primary/50 bg-background">
+            <Briefcase className="h-3 w-3 text-primary" />
+          </div>
+          <div className="flex flex-col space-y-2 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
+            <h3 className="text-xl font-semibold">UI/UX Developer</h3>
+            <div className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+              2018 - 2021
+            </div>
+          </div>
+          <p className="mt-1 text-muted-foreground">InnovateTech</p>
+          <ul className="mt-4 list-inside space-y-2 text-muted-foreground">
+            <li className="flex items-start">
+              <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
+              Designed and developed responsive interfaces for web and mobile applications
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
+              Collaborated with product managers to define user requirements and workflows
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
+              Conducted user testing and implemented iterative improvements
+            </li>
+          </ul>
+        </motion.div>
+      </motion.div>
+    </motion.div>
+  </div>
+</section>
+*/}
 
-              <motion.div variants={fadeIn} className="relative">
-                <div className="absolute -left-10 flex h-6 w-6 items-center justify-center rounded-full border border-primary/50 bg-background">
-                  <Briefcase className="h-3 w-3 text-primary" />
-                </div>
-                <div className="flex flex-col space-y-2 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
-                  <h3 className="text-xl font-semibold">UI/UX Developer</h3>
-                  <div className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
-                    2018 - 2021
-                  </div>
-                </div>
-                <p className="mt-1 text-muted-foreground">InnovateTech</p>
-                <ul className="mt-4 list-inside space-y-2 text-muted-foreground">
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
-                    Designed and developed responsive interfaces for web and mobile applications
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
-                    Collaborated with product managers to define user requirements and workflows
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1.5 h-1 w-1 rounded-full bg-primary" />
-                    Conducted user testing and implemented iterative improvements
-                  </li>
-                </ul>
-              </motion.div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
 
       {/* Skills Section */}
       <section ref={sectionRefs.skills} className="py-20">
@@ -773,13 +775,13 @@ export default function Home() {
                 </Link>
               </Button>
               <Button asChild variant="outline" className="gap-2 rounded-full">
-                <Link href="https://github.com" target="_blank">
+                <Link href="https://github.com/sjdev06/New-folder" target="_blank">
                   <Github className="h-4 w-4" />
                   GitHub
                 </Link>
               </Button>
               <Button asChild variant="outline" className="gap-2 rounded-full">
-                <Link href="https://linkedin.com" target="_blank">
+                <Link href="https://www.linkedin.com/in/saketjha06/" target="_blank">
                   <Linkedin className="h-4 w-4" />
                   LinkedIn
                 </Link>
