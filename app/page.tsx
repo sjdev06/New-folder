@@ -370,7 +370,7 @@ export default function Home() {
                   <div>
                     <div className="mb-1 flex justify-between">
                       <span className="text-sm font-medium">UI/UX Design</span>
-                      <span className="text-sm text-muted-foreground">95%</span>
+                      <span className="text-sm text-muted-foreground">60%</span>
                     </div>
                     <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
                       <motion.div
@@ -385,13 +385,13 @@ export default function Home() {
                   <div>
                     <div className="mb-1 flex justify-between">
                       <span className="text-sm font-medium">Figma / Adobe XD</span>
-                      <span className="text-sm text-muted-foreground">90%</span>
+                      <span className="text-sm text-muted-foreground">75%</span>
                     </div>
                     <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
                       <motion.div
                         className="h-full bg-gradient-to-r from-primary to-primary/80"
                         initial={{ width: 0 }}
-                        whileInView={{ width: "90%" }}
+                        whileInView={{ width: "90%" }} 
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 0.2 }}
                       />
@@ -400,7 +400,7 @@ export default function Home() {
                   <div>
                     <div className="mb-1 flex justify-between">
                       <span className="text-sm font-medium">Design Systems</span>
-                      <span className="text-sm text-muted-foreground">85%</span>
+                      <span className="text-sm text-muted-foreground">35%</span>
                     </div>
                     <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
                       <motion.div
@@ -426,7 +426,7 @@ export default function Home() {
                   <div>
                     <div className="mb-1 flex justify-between">
                       <span className="text-sm font-medium">React / Next.js</span>
-                      <span className="text-sm text-muted-foreground">90%</span>
+                      <span className="text-sm text-muted-foreground">80%</span>
                     </div>
                     <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
                       <motion.div
@@ -639,7 +639,7 @@ export default function Home() {
                     size="sm"
                     className="mt-4 w-fit rounded-full bg-white text-black hover:bg-white/90"
                   >
-                    <Link href="https://brain-quest-jet.vercel.app/home" target="_blank">
+                    <Link href="https://brain-quest-jet.vercel.app" target="_blank">
                       View Project
                     </Link>
                   </Button>
