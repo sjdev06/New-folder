@@ -391,7 +391,7 @@ export default function Home() {
                       <motion.div
                         className="h-full bg-gradient-to-r from-primary to-primary/80"
                         initial={{ width: 0 }}
-                        whileInView={{ width: "90%" }} 
+                        whileInView={{ width: "90%" }}
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 0.2 }}
                       />
